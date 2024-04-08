@@ -6,7 +6,7 @@ bot = telebot.TeleBot('7092745767:AAFMrVnh38yhDRHIQBY5bdgUWTqJLLbJpT0')
 
 @bot.message_handler(commands=['site','website'])
 def site(message):
-    webbrowser.open('http://dzevetckiy.tilda.ws/page46023723.html#rec724940576')
+    bot.send_message(message.chat.id, 'http://dzevetckiy.tilda.ws')
 
 
 @bot.message_handler(commands=['start'])
